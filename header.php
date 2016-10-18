@@ -15,14 +15,14 @@
                     if (isset($_SESSION['user_id'])){
                         echo "<li><a href='index.php'>Home</a></li>
                             <li><a href='#'>Profile</a></li>
-                            <li><a href='#'>Forum</a></li>
+                            <li><a href='forum.php'>Forum</a></li>
                             <li><a href='#'>Downloads</a></li>
                             <li><a href='#'>Contact Us</a></li>";
                     }
                     else {
                         echo "<li><a href='index.php'>Home</a></li>
                             <li><a href='#'>Downloads</a></li>
-                            <li><a href='#'>Forum</a></li>
+                            <li><a href='forum.php'>Forum</a></li>
                             <li><a href='#'>Contact us</a></li>";
                     }
 
